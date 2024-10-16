@@ -12,3 +12,4 @@ c:\Users\luusytruong\OneDrive\Documents\Visual Studio 2022\c-sharp\week1\dtc2251
 c:\Users\luusytruong\OneDrive\Documents\Visual Studio 2022\c-sharp\week1\dtc225180321\obj\Debug\net8.0\dtc225180321.pdb
 c:\Users\luusytruong\OneDrive\Documents\Visual Studio 2022\c-sharp\week1\dtc225180321\obj\Debug\net8.0\dtc225180321.genruntimeconfig.cache
 c:\Users\luusytruong\OneDrive\Documents\Visual Studio 2022\c-sharp\week1\dtc225180321\obj\Debug\net8.0\ref\dtc225180321.dll
+c:\Users\luusytruong\OneDrive\Documents\Visual Studio 2022\c-sharp\week1\dtc225180321\obj\Debug\net8.0\dtc225180321.sourcelink.json

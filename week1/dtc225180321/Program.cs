@@ -4,6 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
+        Console.WriteLine("Chao em nhaaa");
     }
 }
