@@ -1,0 +1,15 @@
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\bin\Debug\net8.0\review_test.exe
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\bin\Debug\net8.0\review_test.deps.json
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\bin\Debug\net8.0\review_test.runtimeconfig.json
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\bin\Debug\net8.0\review_test.dll
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\bin\Debug\net8.0\review_test.pdb
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.AssemblyInfoInputs.cache
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.AssemblyInfo.cs
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.csproj.CoreCompileInputs.cache
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.sourcelink.json
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.dll
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\refint\review_test.dll
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.pdb
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\review_test.genruntimeconfig.cache
+C:\Users\luusytruong\Documents\Visual Studio 2022\c-sharp\review_test\obj\Debug\net8.0\ref\review_test.dll

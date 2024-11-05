@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|c:\\users\\luusytruong\\documents\\visual studio 2022\\c-sharp\\review_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|c:\\users\\luusytruong\\documents\\visual studio 2022\\c-sharp\\review_test\\de1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|solutionrelative:de1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|c:\\users\\luusytruong\\documents\\visual studio 2022\\c-sharp\\review_test\\de2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FB9F031-0758-44F4-89D8-704ED2393388}|review_test.csproj|solutionrelative:de2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "de1.cs",
+              "DocumentMoniker": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\de1.cs",
+              "RelativeDocumentMoniker": "de1.cs",
+              "ToolTip": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\de1.cs",
+              "RelativeToolTip": "de1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:17:52.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "de2.cs",
+              "DocumentMoniker": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\de2.cs",
+              "RelativeDocumentMoniker": "de2.cs",
+              "ToolTip": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\de2.cs",
+              "RelativeToolTip": "de2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:16:37.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\luusytruong\\Documents\\Visual Studio 2022\\c-sharp\\review_test\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T04:04:03.898Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
