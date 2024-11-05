@@ -1,7 +1,9 @@
 ﻿namespace review_test
 {
+    //viết ra file khác tương tự viết ở trên này
     internal class Program
     {
+        //đi thi viết ở đây
         static void Main(string[] args)
         {
             //de1 1
@@ -109,7 +111,29 @@
                 CalculationHandlerAdd.CalculationHandler sum = cha.Add;
                 sum(10, 99);
             }
-        
+            
+            //de9
+            {
+                //de9_1
+                List<Animal2> animal2s = new List<Animal2>{
+                    new Dog2(),
+                    new Cat()
+                };
+                //vòng lặp
+                foreach(Animal2 animal2 in animal2s){
+                    animal2.MakeSound();
+                }
+                Console.WriteLine($"");
+                Console.WriteLine($"");
+                Console.WriteLine($"");
+
+                //de9_2
+                OnDataReceivedClass orc = new OnDataReceivedClass();
+                orc.OnDataReceived += OnDataReceivedClass.HoanThanhEvent;
+                orc.OnDataReceived += OnDataReceivedClass.HoanThanhEvent2;
+                orc.OnDataReceived += OnDataReceivedClass.HoanThanhEvent3;
+                orc.BatDauEvent();
+            }
         }
     }
 }
