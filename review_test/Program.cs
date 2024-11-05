@@ -50,6 +50,7 @@
                 //kích hoạt event OnCompleted
                 task.CompleteTask();
             }
+
             //de3
             {
                 //3a
@@ -61,8 +62,54 @@
                 MathOperationDelegate mod = new MathOperationDelegate();
                 MathOperationDelegate.MathOperation sub = new MathOperationDelegate.MathOperation(mod.Subtract);
                 Console.WriteLine($"phep tru 2 so: {sub(10, 1)}");
-                
             }
+
+            //de4
+            {
+                //4d
+                Manager manager = new Manager();
+                Console.WriteLine($"Manager: Name: {manager.Name = "Ngọc râu"}, Position: {manager.Position = "quản lý"}, Department: {manager.Department = "p quản lý"}");
+                Developer developer = new Developer();
+                Console.WriteLine($"Developer: Name: {developer.Name = "Ngọc râu 2"}, Position: {developer.Position = "lập trình viên"}, Department: {developer.ProgrammingLanguage = "ngôn ngữ C#"}");
+
+                //4_b
+                CalculationHandlerDelegate chd = new CalculationHandlerDelegate();
+                CalculationHandlerDelegate.CalculationHandler mul = new CalculationHandlerDelegate.CalculationHandler(chd.Multiply);
+                chd.OnCalculationComplete += CalculationHandlerDelegate.OnCompleted;
+                mul(2,8);
+            }
+
+            //de7
+            {
+                //de7_1
+                Person person1 = new Person();
+                person1.DisplayInfo();
+                Person person2 = new Person("Ngoc rau", 10);
+                person2.DisplayInfo();
+                //de7_2
+                MODelegate modd = new MODelegate();
+                MODelegate.MathOperation divide = new MODelegate.MathOperation(modd.Divide);
+                Console.WriteLine($"phep chia 10 va 2: {divide(10, 2)}");
+
+            }
+
+            //de8
+            {
+                //de8_1
+                Counter counter = new Counter();
+                Counter counter1 = new Counter();
+
+                Counter.Increment();
+                Counter.Increment();
+
+                Console.WriteLine($"so lan goi pt: {Counter.Count}");
+
+                //de8_2
+                CalculationHandlerAdd cha = new CalculationHandlerAdd();
+                CalculationHandlerAdd.CalculationHandler sum = cha.Add;
+                sum(10, 99);
+            }
+        
         }
     }
 }
