@@ -198,14 +198,28 @@
             //     notificationHandler();
             // }
 
-            //de13
-            {
-                //de13_1
-                Student13 student13 = new Student13("Truong dz");
-                Teacher13 teacher13 = new Teacher13("truong zai dep");
-                student13.DisplayInfo();
-                teacher13.DisplayInfo();
-            }
+            // //de13
+            // {
+            //     //de13_1
+            //     Student13 student13 = new Student13("Truong dz");
+            //     Teacher13 teacher13 = new Teacher13("truong zai dep");
+            //     student13.DisplayInfo();
+            //     teacher13.DisplayInfo();
+            // }
+
+            // //de14
+            // {
+            //     BaseClass14 baseClass14 = new BaseClass14();
+            //     baseClass14.Display();
+            //     DerivedClass14 derivedClass14 = new DerivedClass14();
+            //     derivedClass14.Display();
+
+            //     //de14_2
+            //     Process14 process14 = new Process14();
+            //     process14.OnProcessCompleted += Process14.NotificationOnComplete;
+            //     process14.CompleteProcess();
+            // }
+
 
             // //de15
             // {
@@ -249,8 +263,32 @@
             //     car.StartCar();
             // }
 
-            //
+            // //de18
+            // {
+            //     List<IDrive18> drive18s = new List<IDrive18>{
+            //         new Car18(),
+            //         new Truck18()
+            //     };
 
+            //     foreach(IDrive18 drive18 in drive18s){
+            //         drive18.Drive();
+            //     }
+            // }
+
+            // //de19
+            // {
+            //     Fan19 fan19 = new Fan19();
+            //     AirConditioner19 airConditioner19 = new AirConditioner19();
+            //     fan19.TurnOn();
+            //     airConditioner19.TurnOn();
+            // }
+            
+            //de20
+            {
+                //de20_1
+                Car20 car20 = new Car20();
+                car20.Start();
+            }
         }
     }
 }
