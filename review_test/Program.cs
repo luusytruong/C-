@@ -82,6 +82,31 @@
             //     mul(2,8);
             // }
 
+            // //de5
+            // {
+            //     List<IMovable> movables = new List<IMovable>{
+            //         new Car5(),
+            //         new Bike5()
+            //     };
+            //     foreach (IMovable movable in movables)
+            //     {
+            //         movable.Move();
+            //     }
+            // }
+
+            //de6
+            {
+                List<Appliance> appliances = new List<Appliance>{
+                    new WashingMachine(),
+                    new Refrigerator()
+                };
+                foreach (Appliance appliance in appliances)
+                {
+                    appliance.TurnOn();
+                    appliance.TurnOff();
+                }
+            }
+
             // //de7
             // {
             //     //de7_1
@@ -282,13 +307,14 @@
             //     fan19.TurnOn();
             //     airConditioner19.TurnOn();
             // }
-            
-            //de20
-            {
-                //de20_1
-                Car20 car20 = new Car20();
-                car20.Start();
-            }
+
+            // //de20
+            // {
+            //     //de20_1
+            //     Car20 car20 = new Car20();
+            //     car20.Start();
+            // }
+
         }
     }
 }
