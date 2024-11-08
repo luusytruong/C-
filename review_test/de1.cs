@@ -18,7 +18,8 @@
     {
         //thêm tt Breed (loài)
         public string? Breed { get; set; }
-        //ghi đè phương thức DisplayInfor sử dụng override (lưu ý lớp bị ghi đè phải là virtual)
+        //ghi đè phương thức DisplayInfor sử dụng override
+        //(lưu ý lớp bị ghi đè phải là virtual)
         public override void DisplayInfor()
         {
             Console.WriteLine($"name: {Name}, age: {Age}, breed: {Breed}");

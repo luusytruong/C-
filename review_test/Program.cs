@@ -1,4 +1,6 @@
-﻿namespace review_test
+﻿using System.Reflection.Metadata.Ecma335;
+
+namespace review_test
 {
     //viết ra file khác tương tự viết ở trên này
     internal class Program
@@ -105,6 +107,20 @@
                     appliance.TurnOn();
                     appliance.TurnOff();
                 }
+                //de6_2
+                //phương thức vô danh (anonymous method) thực hiện phép chia
+                Delegate6.MathOperation Divide = delegate (double x, double y)
+                {
+                    return x / y;
+                };
+                //biểu thức lambda để thực hiện phép nhân
+                Delegate6.MathOperation Multiply = (x, y) => x * y;
+
+                //thực hiện các phép tính
+                int a = 10;
+                int b = 0;
+                Console.WriteLine($"phep chia pt vo danh: {a}/{b} = {Divide(a, b)}");
+                Console.WriteLine($"phep nhan bieu thuc lambda: {a}*{b} = {Multiply(a, b)}");
             }
 
             // //de7
