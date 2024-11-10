@@ -1,21 +1,20 @@
-namespace review_test
+namespace review_test;
+
+interface IMovable
 {
-    interface IMovable
+    void Move();
+}
+class Car5 : IMovable
+{
+    public void Move()
     {
-        void Move();
+        Console.WriteLine($"xe oto dang di chuyen");
     }
-    class Car5 : IMovable
+}
+class Bike5 : IMovable
+{
+    public void Move()
     {
-        public void Move()
-        {
-            Console.WriteLine($"xe oto dang di chuyen");
-        }
-    }
-    class Bike5 : IMovable
-    {
-        public void Move()
-        {
-            Console.WriteLine($"xe dap dang di chuyen");
-        }
+        Console.WriteLine($"xe dap dang di chuyen");
     }
 }

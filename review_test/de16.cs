@@ -1,17 +1,22 @@
-namespace review_test
+namespace review_test;
+
+interface IDriveable
 {
-    interface  IDriveable{
-        void Drive();
+    void Drive();
+}
+interface IFlyable
+{
+    void Fly();
+}
+class CarPlane : IDriveable, IFlyable
+{
+    public void Drive()
+    {
+        Console.WriteLine($"Car running");
     }
-    interface  IFlyable{
-        void Fly();
+    public void Fly()
+    {
+        Console.WriteLine($"Plane is flying");
     }
-    class CarPlane : IDriveable , IFlyable{
-        public void Drive(){
-            Console.WriteLine($"Car running");
-        }
-        public void Fly(){
-            Console.WriteLine($"Plane is flying");
-        }
-    }
+
 }

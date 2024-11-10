@@ -1,4 +1,0 @@
-namespace review_test
-{
-
-}

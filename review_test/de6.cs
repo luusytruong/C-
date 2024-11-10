@@ -1,23 +1,34 @@
-namespace review_test
+namespace review_test;
+
+abstract class Appliance
 {
-    abstract class Appliance{
-        public abstract void TurnOn();
-        public abstract void TurnOff();
+    public abstract void TurnOn();
+    public abstract void TurnOff();
+}
+class WashingMachine : Appliance
+{
+    public override void TurnOn()
+    {
+        Console.WriteLine($"may giat da bat");
     }
-    class WashingMachine : Appliance{
-        public override void TurnOn(){
-            Console.WriteLine($"may giat da bat");
-        }
-        public override void TurnOff(){
-            Console.WriteLine($"may giat da tat");
-        }
+    public override void TurnOff()
+    {
+        Console.WriteLine($"may giat da tat");
     }
-    class Refrigerator : Appliance{
-        public override void TurnOn(){
-            Console.WriteLine($"tu lanh da bat");
-        }
-        public override void TurnOff(){
-            Console.WriteLine($"tu lanh da tat");
-        }
+}
+class Refrigerator : Appliance
+{
+    public override void TurnOn()
+    {
+        Console.WriteLine($"tu lanh da bat");
     }
+    public override void TurnOff()
+    {
+        Console.WriteLine($"tu lanh da tat");
+    }
+}
+//2
+class Delegate6
+{
+    public delegate double MathOperation(double x, double y);
 }

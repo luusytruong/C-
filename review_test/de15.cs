@@ -1,8 +1,10 @@
-﻿namespace review_test
+﻿namespace review_test;
+
+class OperationDivide
 {
-    class OperationDivide{
-        public double Divide(int a, int b){
-            return a / b;
-        }
+    public double Divide(int a, int b)
+    {
+        return a / b;
     }
 }
+

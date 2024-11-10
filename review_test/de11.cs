@@ -1,21 +1,20 @@
-namespace review_test
+namespace review_test;
+
+interface IDrawable11
 {
-    interface IDrawable11
+    void Draw();
+}
+class Shape11 : IDrawable11
+{
+    public virtual void Draw()
     {
-        void Draw();
+        Console.WriteLine($"ve mot hinh");
     }
-    class Shape11 : IDrawable11
+}
+class Circle11 : Shape11
+{
+    public override void Draw()
     {
-        public virtual void Draw()
-        {
-            Console.WriteLine($"ve mot hinh");
-        }
-    }
-    class Circle11 : Shape11
-    {
-        public override void Draw()
-        {
-            Console.WriteLine($"ve mot hinh tron");
-        }
+        Console.WriteLine($"ve mot hinh tron");
     }
 }

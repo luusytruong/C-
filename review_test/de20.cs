@@ -1,24 +1,26 @@
-namespace review_test
+namespace review_test;
+
+class Engine20
 {
-    class Engine20
+    public void Start()
     {
-        public void Start()
-        {
-            Console.WriteLine($"dong co da khoi dong");
-        }
+        Console.WriteLine($"dong co da khoi dong");
     }
-    class Vehicle20
+}
+class Vehicle20
+{
+    public Engine20 Engine20 { get; set; }
+    public Vehicle20()
     {
-        public Engine20 Engine20 {get;set;}
-        public Vehicle20(){
-            Engine20 = new Engine20();
-        }
+        Engine20 = new Engine20();
     }
-    class Car20 : Vehicle20
+}
+class Car20 : Vehicle20
+{
+    public void Start()
     {
-        public void Start(){
-            Engine20.Start();
-            Console.WriteLine($"xe dang chay");
-        }
+        Engine20.Start();
+        Console.WriteLine($"xe dang chay");
+
     }
 }
